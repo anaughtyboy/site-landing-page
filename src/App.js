@@ -1,12 +1,11 @@
-// import logo from './logo.svg';
 import bg from './landingimg.jpg';
-import './App.css';
 import Footer from './Footer';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      {/* <img className="App-bg" src={bg} id="bg" alt="" /> */}
+      <img className="App-bg" src={bg} id="bg" alt="" />
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

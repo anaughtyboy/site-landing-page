@@ -10,7 +10,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  font-size: calc(10px + 1vmin);
+  /* font-size: calc(10px + 1vmin); */
+  font-size: 1rem;
   color: white;
   position: fixed;
   bottom: 0;

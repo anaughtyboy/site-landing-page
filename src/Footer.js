@@ -1,6 +1,6 @@
 import './Footer.css'
 
-export default () => (
+const Footer = () => (
   <footer className="footer">
     <div className="container">
       <span>All Rights Reserved ©2022&nbsp;&nbsp;陆地港二手车版权所有</span>
@@ -17,3 +17,4 @@ export default () => (
     </div>
   </footer>
 )
+export default Footer;

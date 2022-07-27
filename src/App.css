@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  width: fit-content;
 }
 
 /* .App-logo {
@@ -38,23 +39,27 @@
 } */
 
 .App-bg {
-  /* Set rules to fill background */
+  display: block;
+  user-select: none;
+  margin: auto;
+  background-color: #333333;
+  transition: background-color 300ms;
+  width: 1440px;
+  aspect-ratio: auto 1440 / 810;
   min-height: 100%;
-  min-width: 1024px;
+  /* height: auto; */
 	
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
+  /* width: 100%;
+  height: auto; */
 	
-  /* Set up positioning */
-  position: fixed;
+  /* position: fixed;
   top: 0;
-  left: 0;
+  left: 0; */
 }
 
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
+/* @media screen and (max-width: 1024px) {
   .App-bg {
     left: 50%;
-    margin-left: -512px;   /* 50% */
+    margin-left: -512px;
   }
-}
+} */
